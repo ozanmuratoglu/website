@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ozan Muratoğlu - Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-p1Bgz+Z8v+lKDGPGLryuD9lUghF0QwM9ThxF+8ZC+TeEUXESNj5pR2HdtDZzYo6GZGlFE2WftEQyrg9M8r3u1g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #e0eafc, #cfdef3);
+      color: #2c3e50;
+      padding: 20px;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      animation: fadeIn 0.8s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+      color: #1a202c;
+    }
+    header p {
+      font-size: 1.3rem;
+      color: #4a5568;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      color: #2d3748;
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 10px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li::before {
+      content: "\2022";
+      color: #3182ce;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+    .contact-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .contact-item i {
+      margin-right: 10px;
+      color: #2b6cb0;
+      font-size: 1.2rem;
+    }
+    a {
+      color: #3182ce;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+      .container {
+        padding: 25px;
+      }
+      header h1 {
+        font-size: 2rem;
+      }
+      h2 {
+        font-size: 1.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Ozan Muratoğlu</h1>
+      <p>Computer Engineer</p>
+    </header>
+
+    <section>
+      <h2>About Me</h2>
+      <p>I am a newly graduated computer engineer with a passion for Information Technology and Cybersecurity. I am eager to work in dynamic environments and develop myself continuously in these fields.</p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>Programming Languages: Python, JavaScript, C++</li>
+        <li>Web Technologies: HTML, CSS, React, Flask</li>
+        <li>Version Control: Git, GitHub</li>
+        <li>Cybersecurity Basics: Kali Linux, Wireshark, Nmap</li>
+        <li>Operating Systems: Windows, Linux</li>
+        <li>Soft Skills: Teamwork, Communication, Problem Solving</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <div class="contact-item">
+        <i class="fas fa-envelope"></i>
+        <a href="mailto:ozanmuratoglu06@gmail.com">ozanmuratoglu06@gmail.com</a>
+      </div>
+      <div class="contact-item">
+        <i class="fab fa-linkedin"></i>
+        <a href="https://www.linkedin.com/in/ozanmuratoglu/" target="_blank">linkedin.com/in/ozanmuratoglu</a>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
